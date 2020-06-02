@@ -1,6 +1,6 @@
 :root {
-    --title-color: #322153;
-    --primary-color: #34cb79;
+    --dark-purple: #322153;
+    --green: #34cb79;
 }
 
 * {
@@ -24,13 +24,13 @@ a {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: Ubuntu, sans-serif;
-    color: var(--title-color);
+    color: var(--dark-purple);
 }
 
 #page-home {
     height: 100vh;
     background: url('../assets/home-background.svg') no-repeat;
-    background-position: 35vw bottom;
+    background-position: 35vw 20vh;
 }
 
 #page-home .content {
@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    background-color: var(--primary-color);
+    background-color: var(--green);
     transition: 400ms;
 }
 
